@@ -5,6 +5,7 @@ seoDescription: "10 essential shell scripts for DevOps sysadmins: boost automati
 datePublished: Sat Nov 15 2025 18:21:45 GMT+0000 (Coordinated Universal Time)
 cuid: cmi0m5lx0000102joadgb7m91
 slug: real-time-corporate-shell-scripts
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763231227191/5dbad218-db91-49e4-8e60-db8f11a57bb9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1763230896167/001bf61c-1d83-496c-aac4-07bd3aaa8b57.png
 tags: linux, developer, linux-for-beginners, shell-script
 
