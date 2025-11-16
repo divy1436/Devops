@@ -5,6 +5,7 @@ seoDescription: "Explore 15 practical AWK use cases for text processing, data ma
 datePublished: Sun Nov 16 2025 17:18:01 GMT+0000 (Coordinated Universal Time)
 cuid: cmi1zbidd000002l794kq5gp8
 slug: mastering-awk-top-15-practical-use-cases-for-developers
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763313690242/78607cc7-e3f9-4b84-b660-0a75806da098.png
 tags: cpp, linux, devops, linux-for-beginners
 
 ---
