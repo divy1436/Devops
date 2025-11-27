@@ -5,6 +5,7 @@ seoDescription: "Learn Linux networking basics: OSI layers, IP addressing, subne
 datePublished: Tue Nov 25 2025 15:44:48 GMT+0000 (Coordinated Universal Time)
 cuid: cmieqya9k000002i82g2i5kyd
 slug: linux-networking
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764256119397/6fecdecf-fbd5-4064-b79f-26ae8cec99b0.png
 tags: linux, computer-science, devops, frontend-development, ethereum
 
 ---
