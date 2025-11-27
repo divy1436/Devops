@@ -4,6 +4,7 @@ seoTitle: "Linux Disk Management & NFS Guide"
 datePublished: Thu Nov 27 2025 15:06:08 GMT+0000 (Coordinated Universal Time)
 cuid: cmihkga1q000602jve1nvbw0j
 slug: disk-management-and-nfs-in-linux
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764256149485/6d35a5c7-7f2e-42e1-b26b-5781c901840f.png
 tags: linux, javascript, devops, jobs
 
 ---
