@@ -220,4 +220,4 @@ Never delete a tag and move it to a different commit on a public repository. It 
 * **Use SemVer** (v1.0.0) to keep things organized.
     
 
-Happy Tagging! 🏷️
+Happy **Tagging**! 🏷️
