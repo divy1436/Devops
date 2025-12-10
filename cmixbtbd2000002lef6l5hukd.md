@@ -8,7 +8,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765208886480/75b10c5
 
 ---
 
-**How to Fix Mistakes with Revert & Reset (Simply Explained)**
+**How to Fix Mistakes with Revert & Reset Simply Explained**
 
 **Slug:** git-revert-vs-reset-guide
 
@@ -139,7 +139,12 @@ git reset --hard HEAD~1
 
 ### Cheat Sheet: Revert vs. Reset
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Feature</strong></p></td><td colspan="1" rowspan="1"><p><strong>Git Revert</strong></p></td><td colspan="1" rowspan="1"><p><strong>Git Reset</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>What it does</strong></p></td><td colspan="1" rowspan="1"><p>Adds a new "undo" commit</p></td><td colspan="1" rowspan="1"><p>Moves history backward</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Safe for teams?</strong></p></td><td colspan="1" rowspan="1"><p>✅ Yes, very safe</p></td><td colspan="1" rowspan="1"><p>❌ No (unless local)</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>History</strong></p></td><td colspan="1" rowspan="1"><p>Keeps history intact</p></td><td colspan="1" rowspan="1"><p>Rewrites/Deletes history</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Best for</strong></p></td><td colspan="1" rowspan="1"><p>Fixing bugs in production</p></td><td colspan="1" rowspan="1"><p>Fixing local typos or cleanup</p></td></tr></tbody></table>
+| **Feature** | **Git Revert** | **Git Reset** |
+| --- | --- | --- |
+| **What it does** | Adds a new "undo" commit | Moves history backward |
+| **Safe for teams?** | ✅ Yes, very safe | ❌ No (unless local) |
+| **History** | Keeps history intact | Rewrites/Deletes history |
+| **Best for** | Fixing bugs in production | Fixing local typos or cleanup |
 
 ### 💡 Pro Tip: The "Undo" Button for Git
 
