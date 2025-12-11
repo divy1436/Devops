@@ -1,10 +1,10 @@
 ---
-title: "Git Merge Conflicts"
+title: "Git Merge Conflict"
 seoTitle: "Resolving Git Merge Conflicts"
 seoDescription: "Learn how to confidently resolve Git merge conflicts with this easy step-by-step guide and tips to avoid them in the future. 🚀"
 datePublished: Sun Dec 07 2025 14:52:12 GMT+0000 (Coordinated Universal Time)
 cuid: cmivucvjr000202jieqff9rtb
-slug: git-merge-conflicts
+slug: git-merge-conflict
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765118657095/4e66c1f3-6890-4005-9ae7-38d2bdab2fd6.png
 tags: github
 
