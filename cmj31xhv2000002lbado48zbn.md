@@ -31,7 +31,7 @@ Rule #1 of a hotfix: Always cut from the stable source of truth. We aren't branc
 
 Bash
 
-```
+```plaintext
 # Get the latest stable code
 git checkout main
 git pull origin main
@@ -46,7 +46,7 @@ I find the null pointer, patch it, and verify it locally. Once I'm confident, I 
 
 Bash
 
-```
+```plaintext
 git commit -am "Fix null error in login controller"
 ```
 
@@ -56,7 +56,7 @@ Time to get this into the remote repository so the team can see it.
 
 Bash
 
-```
+```plaintext
 git push origin hotfix/login-crash
 ```
 
@@ -66,7 +66,7 @@ Once the PR is approved (even in a panic, get a code review!), we merge it back 
 
 Bash
 
-```
+```plaintext
 git checkout main
 git merge hotfix/login-crash
 
@@ -105,7 +105,14 @@ While I’m sipping water and recovering from the adrenaline rush, our CI/CD pip
 
 Here is how our triggers map to actions:
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Branch / Type</strong></p></td><td colspan="1" rowspan="1"><p><strong>Trigger</strong></p></td><td colspan="1" rowspan="1"><p><strong>Actions Taken</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>dev</strong></p></td><td colspan="1" rowspan="1"><p>On Push</p></td><td colspan="1" rowspan="1"><p>Unit tests, Build, Deploy to Dev env</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>qa</strong></p></td><td colspan="1" rowspan="1"><p>On Merge</p></td><td colspan="1" rowspan="1"><p>Build, QA Deploy, Run full test suite</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>ppd</strong></p></td><td colspan="1" rowspan="1"><p>On Merge</p></td><td colspan="1" rowspan="1"><p>Build, Staging Deploy, Load/UAT testing</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>main</strong></p></td><td colspan="1" rowspan="1"><p><strong>On Tag</strong></p></td><td colspan="1" rowspan="1"><p><strong>Secure Build, Production Deploy</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>dr</strong></p></td><td colspan="1" rowspan="1"><p>On Merge</p></td><td colspan="1" rowspan="1"><p>DR deploy, Run DR simulation</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>hotfix/*</strong></p></td><td colspan="1" rowspan="1"><p>Push/Merge</p></td><td colspan="1" rowspan="1"><p>CI + Deploy (if urgent), Tagging required</p></td></tr></tbody></table>
+| **Branch / Type** | **Trigger** | **Actions Taken** |
+| --- | --- | --- |
+| **dev** | On Push | Unit tests, Build, Deploy to Dev env |
+| **qa** | On Merge | Build, QA Deploy, Run full test suite |
+| **ppd** | On Merge | Build, Staging Deploy, Load/UAT testing |
+| **main** | **On Tag** | **Secure Build, Production Deploy** |
+| **dr** | On Merge | DR deploy, Run DR simulation |
+| **hotfix/\*** | Push/Merge | CI + Deploy (if urgent), Tagging required |
 
 ---
 
