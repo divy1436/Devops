@@ -117,6 +117,32 @@ Before running commands, ensure you have the correct SDK version (e.g., .NET 8.0
 
 ## Summary Comparison Table
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Feature</strong></p></td><td colspan="1" rowspan="1"><p><strong>Java (Maven)</strong></p></td><td colspan="1" rowspan="1"><p><strong>Node.js</strong></p></td><td colspan="1" rowspan="1"><p><strong>.NET (Dotnet)</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Config/Dep File</strong></p></td><td colspan="1" rowspan="1"><p><code>pom.xml</code></p></td><td colspan="1" rowspan="1"><p><code>package.json</code></p></td><td colspan="1" rowspan="1"><p><code>.csproj</code></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Install Command</strong></p></td><td colspan="1" rowspan="1"><p><code>mvn install</code> (to <code>.m2</code>)</p></td><td colspan="1" rowspan="1"><p><code>npm install</code></p></td><td colspan="1" rowspan="1"><p><code>dotnet restore</code></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Build Command</strong></p></td><td colspan="1" rowspan="1"><p><code>mvn compile</code> / <code>package</code></p></td><td colspan="1" rowspan="1"><p><code>npm run build</code></p></td><td colspan="1" rowspan="1"><p><code>dotnet build</code></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Deployment</strong></p></td><td colspan="1" rowspan="1"><p><code>mvn deploy</code> (to Nexus)</p></td><td colspan="1" rowspan="1"><p>N/A</p></td><td colspan="1" rowspan="1"><p><code>publish</code></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Run Command</strong></p></td><td colspan="1" rowspan="1"><p><code>java -jar x.jar</code></p></td><td colspan="1" rowspan="1"><p><code>npm start</code></p></td><td colspan="1" rowspan="1"><p><code>dotnet run</code></p></td></tr></tbody></table>
+| **Feature** | **Java (Maven)** | **Node.js** | **.NET (Dotnet)** |
+| --- | --- | --- | --- |
+| **Config/Dep File** | `pom.xml` | `package.json` | `.csproj` |
+| **Install Command** | `mvn install` (to `.m2`) | `npm install` | `dotnet restore` |
+| **Build Command** | `mvn compile` / `package` | `npm run build` | `dotnet build` |
+| **Deployment** | `mvn deploy` (to Nexus) | N/A | `publish` |
+| **Run Command** | `java -jar x.jar` | `npm start` | `dotnet run` |
 
 ---
+
+**Stop fighting your builds and start building your future! 🚀**
+
+Ever felt like you’re in "JAR Hell"? 📉 Manually downloading libraries, managing version conflicts, and praying your project compiles is a nightmare we’ve all faced.
+
+That’s why I just published a comprehensive guide on **Apache Maven**—the tool that turns build chaos into a streamlined DevOps workflow.
+
+Whether you are a student at **Poornima College of Engineering** or an aspiring DevOps Engineer, mastering Maven is non-negotiable. In this guide, I break down everything in simple language:
+
+✅ **The Brain of the Project:** Understanding the `pom.xml` ✅ **The Assembly Line:** Decoding the Maven Lifecycle (`mvn clean install`) ✅ **Dependency Management:** Say goodbye to manual JAR downloads forever. ✅ **DevOps Integration:** How Maven works with Docker, Jenkins, and GitHub Actions. ✅ **Pro Tips:** Semantic versioning and multi-module project structure.
+
+Maven isn't just a tool; it’s a standard that makes us better developers. 💻
+
+**Read the full "All-in-One" guide on Hashnode here:** 🔗 \[Insert Your Hashnode Blog Link Here\]
+
+Let’s stop wasting time on configuration and spend more time on innovation.
+
+Are you **Team Maven** or **Team Gradle**? Let’s discuss in the comments! 👇
+
+#Java #DevOps #ApacheMaven #SoftwareDevelopment #Engineering #CyFox #PoornimaCollege #Unstop #TechLearning #Hashnode #Programming
