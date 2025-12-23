@@ -1,0 +1,29 @@
+Started by user [8mha:////4FOf449MnsGVeCeRpC7taN8ZrQdBNIP2jBwJlyeTwDaFAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgY+/dLi1CL9lMyySkMTYzMAXvxICcMAAAA=[0mdivyanshu maurya
+[Mon Dec 22 14:14:54 IST 2025] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.51.0'
+ > git ls-remote --symref -- https://github.com/divy1436/Full-Stack-Blogging-App.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-148282b889160ced112a8540c729d9c5/.git # timeout=10
+Setting origin to https://github.com/divy1436/Full-Stack-Blogging-App.git
+ > git config remote.origin.url https://github.com/divy1436/Full-Stack-Blogging-App.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.51.0'
+ > git ls-remote -h -- https://github.com/divy1436/Full-Stack-Blogging-App.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --no-tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch main
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: main (still at 2176ffff4b165a7c8ca2ddcca8597bbaa4fada2b)
+  Checking branch dev
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at c873b3009a48591b4110f21f050266c91ebe861b)
+Processed 2 branches
+[Mon Dec 22 14:14:56 IST 2025] Finished branch indexing. Indexing took 2 sec
+Finished: SUCCESS

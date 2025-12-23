@@ -1,0 +1,33 @@
+Started by user [8mha:////4FOf449MnsGVeCeRpC7taN8ZrQdBNIP2jBwJlyeTwDaFAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgY+/dLi1CL9lMyySkMTYzMAXvxICcMAAAA=[0mdivyanshu maurya
+[Mon Dec 22 10:06:02 IST 2025] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.51.0'
+ > git ls-remote --symref -- https://github.com/divy1436/Boardgame.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-6eaa07dbeb0fa41f5ec211590f1d731a/.git # timeout=10
+Setting origin to https://github.com/divy1436/Boardgame.git
+ > git config remote.origin.url https://github.com/divy1436/Boardgame.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.51.0'
+ > git ls-remote -h -- https://github.com/divy1436/Boardgame.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --no-tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch qa
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: qa (still at c8f9bac2786f9f9f9f922b5a179d2177d7dbfa83)
+  Checking branch main
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch dev
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+Processed 3 branches
+[Mon Dec 22 10:06:04 IST 2025] Finished branch indexing. Indexing took 2 sec
+Evaluating orphaned items in mb-job-1
+Will remove main
+Finished: SUCCESS

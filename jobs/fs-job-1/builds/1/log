@@ -1,0 +1,9 @@
+Started by user [8mha:////4FOf449MnsGVeCeRpC7taN8ZrQdBNIP2jBwJlyeTwDaFAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgY+/dLi1CL9lMyySkMTYzMAXvxICcMAAAA=[0mdivyanshu maurya
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/fs-job-1
+Unpacking https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.16_8.tar.gz to /var/lib/jenkins/tools/hudson.model.JDK/java_17 on Jenkins
+[fs-job-1] $ /bin/sh -xe /tmp/jenkins6775308122971636843.sh
++ ls
++ pwd
+/var/lib/jenkins/workspace/fs-job-1
+Finished: SUCCESS
