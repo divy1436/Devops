@@ -95,7 +95,15 @@ Where do those libraries come from? Maven uses a three-layered warehouse system:
 
 Maven works through **Phases**. When you run a command, Maven runs every phase before it in order.
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Phase</strong></p></td><td colspan="1" rowspan="1"><p><strong>What it does</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Clean</strong></p></td><td colspan="1" rowspan="1"><p>Deletes old build files (the <code>target</code> folder).</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Validate</strong></p></td><td colspan="1" rowspan="1"><p>Checks if the project structure is correct.</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Compile</strong></p></td><td colspan="1" rowspan="1"><p>Turns <code>.java</code> files into <code>.class</code> files.</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Test</strong></p></td><td colspan="1" rowspan="1"><p>Runs unit tests (like JUnit).</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Package</strong></p></td><td colspan="1" rowspan="1"><p>Squeezes code into a <code>.jar</code> or <code>.war</code> file.</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Install</strong></p></td><td colspan="1" rowspan="1"><p>Puts the finished JAR into your local warehouse.</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Deploy</strong></p></td><td colspan="1" rowspan="1"><p>Sends the JAR to a remote server for the team.</p></td></tr></tbody></table>
+| **Phase** | **What it does** |
+| --- | --- |
+| **Clean** | Deletes old build files (the `target` folder). |
+| **Validate** | Checks if the project structure is correct. |
+| **Compile** | Turns `.java` files into `.class` files. |
+| **Test** | Runs unit tests (like JUnit). |
+| **Package** | Squeezes code into a `.jar` or `.war` file. |
+| **Install** | Puts the finished JAR into your local warehouse. |
+| **Deploy** | Sends the JAR to a remote server for the team. |
 
 ---
 
@@ -124,7 +132,7 @@ Large apps are broken into modules (e.g., `web`, `database`, `utilities`). Maven
 
 Plaintext
 
-```
+```plaintext
 parent-project/
 ├── pom.xml (The Boss)
 ├── core-module/
@@ -137,7 +145,7 @@ parent-project/
 
 XML
 
-```
+```plaintext
 <packaging>pom</packaging>
 <modules>
     <module>core-module</module>
