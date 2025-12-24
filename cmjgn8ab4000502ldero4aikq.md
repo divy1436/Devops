@@ -150,7 +150,7 @@ Now that your "Restaurant" is open, it’s time to serve your first dish. We wil
     
     * Move your `.war` file into the `/webapps` folder of your Tomcat directory.<sup>8</sup>
         
-    * Tomcat will automatically "unpack" the file and host your website.
+    * Tomcat will automatically "unpack" the file and host your website
         
 
 **To Reset or Stop:** If you need to close the kitchen for maintenance, simply run:
